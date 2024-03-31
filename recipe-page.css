@@ -96,6 +96,16 @@
     background-color: var(--neutral-rose-white);
     border-radius: 12px;
   }
+  .preparation ul {
+    padding-left: 1.7rem;
+  }
+  .preparation ul li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  .preparation ul li {
+    padding-left: 13px;
+  }
 
   h1, h2 {
     font-family: Young Serif;
@@ -111,4 +121,84 @@
 
   h3 {
     color: var(--primary-dark-raspberry);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    line-height: 100%;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+
+  .brandy-red {
+    color: #854632;
+  }
+
+  .ingredients {
+    padding-bottom: 31px;
+    border-bottom: 1px solid var(--neutral-light-grey);
+  }
+
+  .ingredients ul {
+    padding-left: 1.9rem;
+  }
+
+  .ingredients ul li {
+    padding-left: 15px;
+  }
+
+  .instructions {
+    margin-top: 32px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid var(--neutral-light-grey);
+  }
+
+  .ingredients ul li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  .nutrition {
+    margin-top: 32px;
+  }
+
+  .nutrition p {
+    margin:24px 0px;
+  }
+
+  .parameters {
+    display: flex;
+    justify-content: center;
+  }
+
+  .calories {
+    margin-left: 32px;
+    flex-grow: 1;
+    margin-right: 16px;
+  }
+
+  .value {
+    margin-right: 32px;
+    flex-grow: 1;
+  }
+
+  .instructions ol li::marker {
+    color: #854632;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .instructions ol {
+    padding-left: 1.6rem;
+  }
+  
+  .instructions li {
+    padding-left: 15px;
+  }
+
+  .instructions ol li:not(:last-child) {
+    margin-bottom: 8px;
   }
