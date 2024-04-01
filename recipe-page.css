@@ -202,3 +202,29 @@
   .instructions ol li:not(:last-child) {
     margin-bottom: 8px;
   }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table tr td {
+    padding-bottom: 11px;
+    padding-top: 12px;
+  }
+  
+  table tr td:first-child {
+    padding-left: 32px;
+    width: 50%;
+  }
+
+  table tbody tr:not(:last-child) {
+    border-bottom: 1px solid #e3ddd7;
+  }
+
+  table tr td:nth-child(2) {
+    font-weight: 700;
+    color:#854632;
+    padding-left: 8px;
+    width: 50%;
+  }
