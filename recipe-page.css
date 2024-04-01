@@ -212,6 +212,10 @@
     padding-bottom: 11px;
     padding-top: 12px;
   }
+
+  table tr:first-child td {
+    padding-top: 0px;
+  }
   
   table tr td:first-child {
     padding-left: 32px;
